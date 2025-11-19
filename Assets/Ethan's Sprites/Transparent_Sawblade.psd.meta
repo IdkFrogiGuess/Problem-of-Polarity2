@@ -210,7 +210,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Transparent_Sawblade_0: 6748145925503513273
+      Transparent_Sawblade_1: -5977389743960303392
+      Transparent_Sawblade_2: -3418722676165324721
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
