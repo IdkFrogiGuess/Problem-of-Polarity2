@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 703a9f6499d293440a9c2a8a8fd80fc2
+=======
+guid: 775ea83e04ee46f43aa3e6cdd170e6d3
+>>>>>>> 58aade3940256ec30f9ce869267b261c1f0ba771
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -210,7 +214,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< HEAD
     nameFileIdTable: {}
+=======
+    nameFileIdTable:
+      Transparent_Sawblade_0: 6748145925503513273
+      Transparent_Sawblade_1: -5977389743960303392
+      Transparent_Sawblade_2: -3418722676165324721
+>>>>>>> 58aade3940256ec30f9ce869267b261c1f0ba771
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
