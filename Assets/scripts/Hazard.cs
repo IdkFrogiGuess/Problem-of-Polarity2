@@ -11,6 +11,9 @@ public class Hazard : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+      //  Collider.CompareTag("Death");
+        {
+            Debug.Log("Im Dead!");
+        }
     }
 }
