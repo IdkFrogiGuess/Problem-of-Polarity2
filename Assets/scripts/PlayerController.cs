@@ -5,7 +5,9 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     public float speed;
     public float jumpForce;
-    private float MoveInput;
+    public float MoveInput;
+    
+    public Animator animator;
 
     private bool isGrounded;
     public Transform feetPos;
@@ -14,7 +16,7 @@ public class PlayerController : MonoBehaviour
 
     private float jumpTimeCounter;
     public float jumpTime;
-    private bool isJumping;
+    public bool IsJumping;
 
     public bool InvertMovement;
 
@@ -42,21 +44,29 @@ public class PlayerController : MonoBehaviour
 
         if (MoveInput > 0)
         {
+            animator.SetBool("IsRunning", true);
             transform.eulerAngles = new Vector3(0, 0, 0);
         }
         else if (MoveInput < 0)
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
+            animator.SetBool("IsRunning", true);
         }
-
+        if (MoveInput == 0)
+        {
+            animator.SetBool("IsRunning", false);
+        }
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
-            isJumping = true;
+            
+            IsJumping = true;
             jumpTimeCounter = jumpTime;
             rb.linearVelocity = Vector2.up * jumpForce;
         }
+        
 
-        if (Input.GetKey(KeyCode.Space) && isJumping)
+
+        if (Input.GetKey(KeyCode.Space) && IsJumping)
         {
             if (jumpTimeCounter > 0)
             {
@@ -65,13 +75,14 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-                isJumping = false;
+
+                IsJumping = false;
             }
         }
 
         if (Input.GetKeyUp(KeyCode.Space))
         {
-            isJumping = false;
+            IsJumping = false;
         }
     }
 

@@ -168,6 +168,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2770798581641618043, guid: 365f3af68993e4a45824855060db9adb, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1199578556}
+    - target: {fileID: 2770798581641618043, guid: 365f3af68993e4a45824855060db9adb, type: 3}
       propertyPath: whatIsGround.m_Bits
       value: 8
       objectReference: {fileID: 0}
@@ -190,11 +194,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 362596865978371650, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.217
       objectReference: {fileID: 0}
     - target: {fileID: 362596865978371650, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.113
       objectReference: {fileID: 0}
     - target: {fileID: 362596865978371650, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -228,18 +232,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1026312605127857125, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
+      propertyPath: m_Size.x
+      value: 0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026312605127857125, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
+      propertyPath: m_Size.y
+      value: 0.275
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026312605127857125, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026312605127857125, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2978850150236040500, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
       propertyPath: m_Name
       value: Gus
       objectReference: {fileID: 0}
     - target: {fileID: 6098094138047515150, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
-      propertyPath: jumpTime
-      value: 0.17
-      objectReference: {fileID: 0}
-    - target: {fileID: 6098094138047515150, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
-      propertyPath: whatIsGround.m_Bits
-      value: 8
-      objectReference: {fileID: 0}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1199578556}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -382,6 +398,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1199578556 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2610149266356742731, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
+  m_PrefabInstance: {fileID: 449133598}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1389284988
 GameObject:
   m_ObjectHideFlags: 0
