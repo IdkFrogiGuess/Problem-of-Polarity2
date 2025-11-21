@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Hazard : MonoBehaviour
@@ -14,11 +15,11 @@ public class Hazard : MonoBehaviour
     {
         
     }
-    void OnCollisionEnter(Collision collision)
+   void OnCollisionEnter(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Death"))
+        if (gameObject.CompareTag("Death"))
         {
-           isDead = true;
+          isDead = true;
         }
     }
 }
