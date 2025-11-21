@@ -7,12 +7,15 @@ public class SawbladePathfinding : MonoBehaviour
     private Rigidbody2D rb;
     private Transform currentPoint;
     public float speed;
+    private Animator anim;
+
     
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
       currentPoint = pointB.transform;
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -38,11 +41,21 @@ public class SawbladePathfinding : MonoBehaviour
 
         if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointB.transform)
         {
+            flip();
             currentPoint = pointA.transform;
         }
         if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointA.transform)
         {
+            flip();
             currentPoint = pointB.transform;
         }
+    }
+
+
+    private void flip()
+    { 
+        Vector3 localScale = transform.localScale;
+        localScale.x *= -1;
+        transform.localScale = localScale;
     }
 }
