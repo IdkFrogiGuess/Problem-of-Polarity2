@@ -1,19 +1,25 @@
+using System;
 using UnityEngine;
 
 public class Hazard : MonoBehaviour
 {
+    public bool isDead = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-      //  Collider.CompareTag("Death");
+        
+    }
+   void OnCollisionEnter(Collision2D collision)
+    {
+        if (gameObject.CompareTag("Death"))
         {
-            Debug.Log("Im Dead!");
+          isDead = true;
         }
     }
 }
