@@ -6,17 +6,19 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float jumpForce;
     public float MoveInput;
-    
-    public Animator animator;
 
+    public Animator animator;
+    private bool isPushing;
     private bool isGrounded;
     public Transform feetPos;
+    public Transform Hand;
     public float checkRadius;
     public LayerMask whatIsGround;
+    public LayerMask whatIsWall;
 
     private float jumpTimeCounter;
     public float jumpTime;
-    public bool IsJumping;
+    private bool IsJumping;
 
     public bool InvertMovement;
 
@@ -40,17 +42,40 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+
+
+
+        if (isGrounded && rb.linearVelocityY <= 0f)
+        {
+            animator.SetBool("Jumping", false);
+        }
+
         isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsGround);
+
+
+        isPushing = Physics2D.OverlapCircle(Hand.position, checkRadius, whatIsWall);
 
         if (MoveInput > 0)
         {
             animator.SetBool("IsRunning", true);
+            animator.SetBool("IsPushing", false);
             transform.eulerAngles = new Vector3(0, 0, 0);
+            if (isPushing && rb.linearVelocityX >= 0)
+            {
+                animator.SetBool("IsPushing", true);
+            }
+            
+            
         }
         else if (MoveInput < 0)
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
             animator.SetBool("IsRunning", true);
+            animator.SetBool("IsPushing", false);
+            if (isPushing && rb.linearVelocityX <= 0)
+            {
+                animator.SetBool("IsPushing", true);
+            }
         }
         if (MoveInput == 0)
         {
@@ -58,31 +83,34 @@ public class PlayerController : MonoBehaviour
         }
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
-            
+
             IsJumping = true;
             jumpTimeCounter = jumpTime;
             rb.linearVelocity = Vector2.up * jumpForce;
-        }
-        
 
 
-        if (Input.GetKey(KeyCode.Space) && IsJumping)
-        {
-            if (jumpTimeCounter > 0)
+
+
+
+            if (Input.GetKey(KeyCode.Space) && IsJumping)
             {
-                rb.linearVelocity = Vector2.up * jumpForce;
-                jumpTimeCounter -= Time.deltaTime;
+                if (jumpTimeCounter > 0.1)
+                {
+                    rb.linearVelocity = Vector2.up * jumpForce;
+                    jumpTimeCounter -= Time.deltaTime;
+                    animator.SetBool("Jumping", true);
+                }
+                else
+                {
+
+                    IsJumping = false;
+                }
             }
-            else
-            {
 
+            if (Input.GetKeyUp(KeyCode.Space))
+            {
                 IsJumping = false;
             }
-        }
-
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            IsJumping = false;
         }
     }
 
