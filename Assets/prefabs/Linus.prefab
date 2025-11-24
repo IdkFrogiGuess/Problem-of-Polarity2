@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 8156276358086049536}
   - component: {fileID: 2770798581641618043}
   m_Layer: 0
-  m_Name: Lignus
+  m_Name: Linus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
