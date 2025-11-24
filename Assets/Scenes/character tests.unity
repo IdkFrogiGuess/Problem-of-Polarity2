@@ -170,7 +170,7 @@ PrefabInstance:
     - target: {fileID: 2770798581641618043, guid: 5c267fdb89043ce42a81253ec0391286, type: 3}
       propertyPath: animator
       value: 
-      objectReference: {fileID: 1199578556}
+      objectReference: {fileID: 1300501454}
     - target: {fileID: 8443547507199663997, guid: 5c267fdb89043ce42a81253ec0391286, type: 3}
       propertyPath: m_Name
       value: Linus
@@ -374,10 +374,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1199578556 stripped
+--- !u!95 &1300501454 stripped
 Animator:
-  m_CorrespondingSourceObject: {fileID: 2610149266356742731, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
-  m_PrefabInstance: {fileID: 449133598}
+  m_CorrespondingSourceObject: {fileID: 384970964587393252, guid: 5c267fdb89043ce42a81253ec0391286, type: 3}
+  m_PrefabInstance: {fileID: 162986493}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1389284988
 GameObject:
