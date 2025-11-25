@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dcc74db77bab7b641b57309764fca1eb
+guid: e825085f369d45e4fb26ed9f1b360de9
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -139,10 +139,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 37b734b9e99640590800000000000000
-      internalID: -7708920532220806285
+      spriteID: b7cdbba8d0d2118469b50e72d0d3c1a1
+      internalID: 1833265377
       vertices: []
       indices: 
       edges: []
@@ -163,8 +163,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b820fa11901c7846b6ff066b29656f0
-      internalID: 191520489
+      spriteID: 7fb62d004f7359d4b855d178ca239e08
+      internalID: 1908683572
       vertices: []
       indices: 
       edges: []
@@ -185,8 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85c9577bd78abdc4a869606b980049e7
-      internalID: -105163322
+      spriteID: 8ac020400c803644e96e97c90a44eb28
+      internalID: 637531166
       vertices: []
       indices: 
       edges: []
@@ -207,8 +207,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ba928d9092153244bb30539db33e6d2
-      internalID: -1267259823
+      spriteID: da737ab894d32124ca19db1c724fd2b2
+      internalID: -1860561509
       vertices: []
       indices: 
       edges: []
@@ -217,7 +217,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4971648c4d2934c4abb8d935741b17f0
+    spriteID: b6ad43f3c5df8a04893512a3474d44c6
     internalID: 0
     vertices: []
     indices: 
@@ -227,10 +227,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tilemap_0: -7708920532220806285
-      Tilemap_1: 191520489
-      Tilemap_2: -105163322
-      Tilemap_3: -1267259823
+      Tilemap_0: 1833265377
+      Tilemap_1: 1908683572
+      Tilemap_2: 637531166
+      Tilemap_3: -1860561509
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
