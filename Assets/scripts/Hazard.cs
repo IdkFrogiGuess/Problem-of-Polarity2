@@ -15,11 +15,15 @@ public class Hazard : MonoBehaviour
     {
         
     }
-   void OnCollisionEnter(Collision2D collision)
+  void OnCollisionEnter2D(Collision2D collision)
     {
         if (gameObject.CompareTag("Death"))
         {
-          isDead = true;
+            isDead = true;
+        }
+        else
+        {
+            isDead = false;
         }
     }
 }
