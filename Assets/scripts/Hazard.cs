@@ -17,7 +17,7 @@ public class Hazard : MonoBehaviour
     }
   void OnCollisionEnter2D(Collision2D collision)
     {
-        if (gameObject.CompareTag("Death"))
+        if (gameObject.CompareTag("Hazard"))
         {
             isDead = true;
         }
