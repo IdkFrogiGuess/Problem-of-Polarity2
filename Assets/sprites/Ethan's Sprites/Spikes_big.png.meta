@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: ade406adec0ed1342955e8bb97fbd086
+=======
 guid: 3d7f741662a2da0468f731644759ed16
+>>>>>>> aea262cc91a7e34e835373c313b4269b883020c1
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -37,7 +41,11 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< HEAD
+    filterMode: 1
+=======
     filterMode: 0
+>>>>>>> aea262cc91a7e34e835373c313b4269b883020c1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +59,11 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
+  spritePixelsToUnits: 100
+=======
   spritePixelsToUnits: 80
+>>>>>>> aea262cc91a7e34e835373c313b4269b883020c1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -160,8 +172,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< HEAD
+    nameFileIdTable: {}
+=======
     nameFileIdTable:
       Spikes_big_0: -8973573800170406906
+>>>>>>> aea262cc91a7e34e835373c313b4269b883020c1
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
