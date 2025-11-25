@@ -14,8 +14,6 @@ public class PulleyElevator : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Time.timeScale = 0.1f;
-
         platform1rb=platform1.GetComponent<Rigidbody2D>();
         platform2rb=platform2.GetComponent<Rigidbody2D>();
     }
