@@ -171,6 +171,22 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 1300501454}
+    - target: {fileID: 3639969274362758226, guid: 5c267fdb89043ce42a81253ec0391286, type: 3}
+      propertyPath: 'm_Animations.Array.data[2]'
+      value: 
+      objectReference: {fileID: 7400000, guid: 067ba05f2385e81469642dadcb212709, type: 2}
+    - target: {fileID: 3639969274362758226, guid: 5c267fdb89043ce42a81253ec0391286, type: 3}
+      propertyPath: 'm_Animations.Array.data[3]'
+      value: 
+      objectReference: {fileID: 7400000, guid: 74e0e0755d2b8634e9a5a5dfe16b4f2c, type: 2}
+    - target: {fileID: 8156276358086049536, guid: 5c267fdb89043ce42a81253ec0391286, type: 3}
+      propertyPath: m_Size.x
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8156276358086049536, guid: 5c267fdb89043ce42a81253ec0391286, type: 3}
+      propertyPath: m_Size.y
+      value: 0.65
+      objectReference: {fileID: 0}
     - target: {fileID: 8443547507199663997, guid: 5c267fdb89043ce42a81253ec0391286, type: 3}
       propertyPath: m_Name
       value: Linus
@@ -227,6 +243,10 @@ PrefabInstance:
     - target: {fileID: 362596865978371650, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026312605127857125, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
+      propertyPath: m_Size.y
+      value: 0.265
       objectReference: {fileID: 0}
     - target: {fileID: 2978850150236040500, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
       propertyPath: m_Name
