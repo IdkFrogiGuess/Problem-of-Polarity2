@@ -252,7 +252,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 993724008928567021, guid: 5c267fdb89043ce42a81253ec0391286, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.56
+      value: 5.13
       objectReference: {fileID: 0}
     - target: {fileID: 993724008928567021, guid: 5c267fdb89043ce42a81253ec0391286, type: 3}
       propertyPath: m_LocalPosition.y
@@ -461,11 +461,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 362596865978371650, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.56
+      value: -0.38
       objectReference: {fileID: 0}
     - target: {fileID: 362596865978371650, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.09
+      value: 5.64
       objectReference: {fileID: 0}
     - target: {fileID: 362596865978371650, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -502,14 +502,6 @@ PrefabInstance:
     - target: {fileID: 2978850150236040500, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
       propertyPath: m_Name
       value: Gus
-      objectReference: {fileID: 0}
-    - target: {fileID: 6098094138047515150, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
-      propertyPath: Heavy.m_Bits
-      value: 256
-      objectReference: {fileID: 0}
-    - target: {fileID: 6098094138047515150, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
-      propertyPath: whatIsGround.m_Bits
-      value: 264
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

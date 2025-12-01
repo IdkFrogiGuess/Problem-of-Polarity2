@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1026312605127857125}
   - component: {fileID: 6098094138047515150}
   - component: {fileID: 2610149266356742731}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -187,7 +187,7 @@ MonoBehaviour:
   checkRadius: 0.3
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 264
   whatIsWall:
     serializedVersion: 2
     m_Bits: 64
