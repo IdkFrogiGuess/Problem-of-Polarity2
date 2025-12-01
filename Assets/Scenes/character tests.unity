@@ -503,6 +503,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gus
       objectReference: {fileID: 0}
+    - target: {fileID: 6098094138047515150, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
+      propertyPath: Heavy.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 6098094138047515150, guid: 3bee9e3995589504286d331a46192d2b, type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 264
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -826,7 +834,7 @@ GameObject:
   - component: {fileID: 1119533289}
   - component: {fileID: 1119533288}
   - component: {fileID: 1119533287}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: box
   m_TagString: Heavy
   m_Icon: {fileID: 0}
@@ -905,7 +913,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &1119533289
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -970,7 +978,7 @@ Transform:
   m_GameObject: {fileID: 1119533286}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4, y: -0.27, z: 0}
+  m_LocalPosition: {x: -2.83, y: 0.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

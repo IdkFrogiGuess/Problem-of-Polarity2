@@ -25,7 +25,7 @@ public class DoorButton : MonoBehaviour
     {
         if (buttonPressed)
         {
-            door.transform.Translate(Vector3.up * Time.deltaTime * 2);
+            door.transform.position = Vector2.Lerp(door.transform.position, openPosition, Time.deltaTime * 2);
             hasBeenOpened = true;
         }
         
