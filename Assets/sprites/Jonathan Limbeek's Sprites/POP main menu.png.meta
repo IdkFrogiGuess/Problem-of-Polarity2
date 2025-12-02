@@ -1,14 +1,10 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 0d2bf5399bbda1f4d95faf3a723fd999
-=======
-guid: 3ed1d73b04be18e42871c72217d433d1
->>>>>>> cd2d1d19f751dc7f6d124faef00381981c5028ca
+guid: 60f99af4c893d434884f83ca31ad3b77
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3865820266706678393
-    second: Particle explosion_0
+      213: 5080941371367633566
+    second: POP main menu_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -130,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Particle explosion_0
+      name: POP main menu_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 40
-        height: 40
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 972be82fc0726a530800000000000000
-      internalID: 3865820266706678393
+      spriteID: e9234fcd141238640800000000000000
+      internalID: 5080941371367633566
       vertices: []
       indices: 
       edges: []
@@ -164,12 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< HEAD
     nameFileIdTable: {}
-=======
-    nameFileIdTable:
-      Particle explosion_0: 3865820266706678393
->>>>>>> cd2d1d19f751dc7f6d124faef00381981c5028ca
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
