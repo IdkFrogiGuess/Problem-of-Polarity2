@@ -510,7 +510,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      problem of polarity logo_0: 2454628635547045397
+      problem of polarity logo_1: -2581411006591186690
+      problem of polarity logo_10: -3594293729551072072
+      problem of polarity logo_11: 7827338059015742098
+      problem of polarity logo_12: -1693810089945343171
+      problem of polarity logo_13: 6127942253584645182
+      problem of polarity logo_14: 900605937199964680
+      problem of polarity logo_2: -3328074625537162830
+      problem of polarity logo_3: -6901308428251413275
+      problem of polarity logo_4: 8445330713326040182
+      problem of polarity logo_5: 6196862593607522130
+      problem of polarity logo_6: -1225140155041490821
+      problem of polarity logo_7: 3275660126211585233
+      problem of polarity logo_8: -2811224488481585773
+      problem of polarity logo_9: -2194342295965852890
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
