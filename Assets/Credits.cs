@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class Credits : MonoBehaviour
 {
-    // Set the target X/Y in the inspector (Y should be higher than current Y to move up).
+   
     public Vector2 openPosition;
-    // Movement speed multiplier for Lerp or Translate
+    
     public float speed = 1f;
-    // If true, credits will continuously move up; if false, they will move toward openPosition.y
+  
     public bool moveIndefinitely = false;
-    // Snap threshold to stop Lerp jitter
+   
     private const float SnapThreshold = 0.01f;
 
     private void OnDrawGizmos()
@@ -21,6 +21,21 @@ public class Credits : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            speed = (float)(speed + 0.1);
+
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            speed = (float)(speed - 0.1);
+
+        }
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            speed = 0;
+        }
+
         if (moveIndefinitely)
         {
           
