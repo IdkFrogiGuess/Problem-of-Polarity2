@@ -190,7 +190,7 @@ MonoBehaviour:
     m_Bits: 264
   whatIsWall:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 320
   jumpTime: 0.17
   InvertMovement: 0
 --- !u!95 &2610149266356742731
