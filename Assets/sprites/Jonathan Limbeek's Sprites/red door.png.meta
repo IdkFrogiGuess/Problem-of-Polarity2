@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 21c2635872887024eb01d9c4468cd4bc
+guid: 35a5f1875714f3a4792744b183c48373
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      red door_0: 8859569213446344910
+      red door_1: -2458603618436002388
+      red door_2: -8765385947433629653
+      red door_3: 3318018574486634177
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 407d383263fcaa54b9c4dadb2c4ac0fc
+guid: 3766ea33cc1d0af418abdf704c71382f
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -910,7 +910,38 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gus animations_0: 8500573406478628889
+      gus animations_1: -4152545267755808212
+      gus animations_10: 8541380131591599646
+      gus animations_11: -718284276139901979
+      gus animations_12: 1590168805998796415
+      gus animations_13: -4583506377680541239
+      gus animations_14: -9041569737753681493
+      gus animations_15: -4555469894194265290
+      gus animations_16: 5552347198106831215
+      gus animations_17: -7335857665742679826
+      gus animations_18: -3192183844023341977
+      gus animations_19: -4133698187665204218
+      gus animations_2: -7583584268085416188
+      gus animations_20: -8020574789481400614
+      gus animations_21: 419948123790404950
+      gus animations_22: -2013038279011793950
+      gus animations_23: 7059228971933134410
+      gus animations_24: -8685019256742571622
+      gus animations_25: 4381702064329355798
+      gus animations_26: -3054112844273208886
+      gus animations_27: 6793362162680214610
+      gus animations_28: -3740277587358249720
+      gus animations_29: 7370404793688673349
+      gus animations_3: 3719778120200806855
+      gus animations_30: -6191240228271697647
+      gus animations_4: 7158335211675351007
+      gus animations_5: -8994171606652883220
+      gus animations_6: 2654954210097332366
+      gus animations_7: 1573608967639881383
+      gus animations_8: 616150477844388197
+      gus animations_9: 7816695814686411878
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

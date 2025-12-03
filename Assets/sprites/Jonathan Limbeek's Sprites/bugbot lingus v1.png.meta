@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c44861d093d6d154dbeec4472af15565
+guid: 3975766dc1f2b4240ad27693e17f0ac4
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -385,7 +385,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bugbot lingus v1_0: 8031557059268333425
+      bugbot lingus v1_1: 2573337801243049467
+      bugbot lingus v1_2: 7061689132716847747
+      bugbot lingus v1_3: 6908267173174208556
+      bugbot lingus v1_4: -1006077426583262131
+      bugbot lingus v1_5: 6808414605637177091
+      bugbot lingus v1_6: -1715138466236187687
+      bugbot lingus v1_7: 5506733304247467763
+      bugbot lingus v1_8: 2638545949711294549
+      bugbot lingus v1_9: -3100513028294965769
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
