@@ -16,6 +16,9 @@ public class PlayerController : MonoBehaviour
     public LayerMask whatIsGround;
     public LayerMask whatIsWall;
 
+    private AudioSource SFX;
+    public AudioClip jump;
+
     private float jumpTimeCounter;
     public float jumpTime;
     private bool IsJumping;
@@ -25,6 +28,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        SFX = GetComponent<AudioSource>();
     }
 
     void FixedUpdate()
@@ -89,8 +93,8 @@ public class PlayerController : MonoBehaviour
             jumpTimeCounter = jumpTime;
             rb.linearVelocity = Vector2.up * jumpForce;
 
-
-
+            //Play Jump Sound Effect
+            SFX.PlayOneShot(jump);
 
 
             if (Input.GetKey(KeyCode.Space) && IsJumping)
