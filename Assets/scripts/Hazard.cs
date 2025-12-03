@@ -6,6 +6,8 @@ public class Hazard : MonoBehaviour
 {
     public bool isDead = false;
     public float reloadDelay = 3f; // seconds to wait before restarting the room
+    public AudioClip death;
+    private AudioSource SFX;
 
     // Optional particle system prefab to spawn on death.
     // If left null, the script will look for a ParticleSystem on this GameObject or its children and clone it.
@@ -16,6 +18,7 @@ public class Hazard : MonoBehaviour
 
     void Start()
     {
+        SFX = GetComponent<AudioSource>();
     }
 
         // Called when this Collider2D/ Rigidbody2D has begun touching another Rigidbody2D/Collider2D
@@ -28,9 +31,11 @@ public class Hazard : MonoBehaviour
         {
             isDead = true;
             PlayDeathParticles();
+            SFX.PlayOneShot(death);
             // Schedule the reload on a persistent reloader before destroying this object
             SceneReloader.ScheduleReload(reloadDelay);
             Destroy(gameObject, 0.25f);
+
         }
     }
 
@@ -44,9 +49,11 @@ public class Hazard : MonoBehaviour
         {
             isDead = true;
             PlayDeathParticles();
+            SFX.PlayOneShot(death);
             // Schedule the reload on a persistent reloader before destroying this object
             SceneReloader.ScheduleReload(reloadDelay);
             Destroy(gameObject, 0.25f);
+
         }
     }
 
