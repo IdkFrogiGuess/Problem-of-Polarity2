@@ -5016,6 +5016,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDead: 0
   reloadDelay: 3
+  death: {fileID: 0}
   deathParticlesPrefab: {fileID: 0}
 --- !u!4 &7804883218022878826 stripped
 Transform:

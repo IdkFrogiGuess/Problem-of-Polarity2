@@ -4938,7 +4938,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Linus Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7838290075254741701, guid: 5c267fdb89043ce42a81253ec0391286, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 993724008928567021, guid: 5c267fdb89043ce42a81253ec0391286, type: 3}
@@ -4978,4 +4979,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDead: 0
   reloadDelay: 3
+  death: {fileID: 0}
   deathParticlesPrefab: {fileID: 0}
