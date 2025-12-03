@@ -10,7 +10,7 @@ public class Hazard : MonoBehaviour
     private AudioSource SFX;
 
     // Optional particle system prefab to spawn on death.
-    // If left null, the script will look for a ParticleSystem on this GameObject or its children and clone it.
+    // If left null, the script will look for a ParticleSystem on child GameObjects only.
     [SerializeField] private ParticleSystem deathParticlesPrefab = null;
 
     // Prevent multiple hazards from scheduling multiple reloads
@@ -21,7 +21,7 @@ public class Hazard : MonoBehaviour
         SFX = GetComponent<AudioSource>();
     }
 
-        // Called when this Collider2D/ Rigidbody2D has begun touching another Rigidbody2D/Collider2D
+    // Called when this Collider2D/ Rigidbody2D has begun touching another Rigidbody2D/Collider2D
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (isDead)
@@ -31,11 +31,11 @@ public class Hazard : MonoBehaviour
         {
             isDead = true;
             PlayDeathParticles();
-            SFX.PlayOneShot(death);
+            if (SFX != null && death != null)
+                SFX.PlayOneShot(death);
             // Schedule the reload on a persistent reloader before destroying this object
             SceneReloader.ScheduleReload(reloadDelay);
             Destroy(gameObject, 0.25f);
-
         }
     }
 
@@ -49,11 +49,11 @@ public class Hazard : MonoBehaviour
         {
             isDead = true;
             PlayDeathParticles();
-            SFX.PlayOneShot(death);
+            if (SFX != null && death != null)
+                SFX.PlayOneShot(death);
             // Schedule the reload on a persistent reloader before destroying this object
             SceneReloader.ScheduleReload(reloadDelay);
             Destroy(gameObject, 0.25f);
-
         }
     }
 
@@ -63,9 +63,10 @@ public class Hazard : MonoBehaviour
     }
 
     // Spawn or play particle effects for death in a way that is independent of this GameObject's lifetime.
+    // Only clone child particle GameObjects. Do NOT clone the root GameObject (avoids cloning player/prefabs).
     private void PlayDeathParticles()
     {
-        // Instantiate a prefab if provided
+        // If a prefab is provided, instantiate it (safe)
         if (deathParticlesPrefab != null)
         {
             var psGo = Instantiate(deathParticlesPrefab.gameObject, transform.position, transform.rotation);
@@ -73,18 +74,30 @@ public class Hazard : MonoBehaviour
             if (ps != null)
                 ps.Play();
 
-            // Compute a destroy time: duration + max start lifetime, fallback if looping
             float destroyTime = EstimateParticleLifetime(ps);
             Destroy(psGo, destroyTime);
             return;
         }
 
-        // Otherwise try to find a ParticleSystem attached to this object or its children
-        var localPs = GetComponentInChildren<ParticleSystem>();
-        if (localPs != null)
+        // Otherwise look for ParticleSystems in children only (exclude the ParticleSystem attached to this.gameObject)
+        var allChildPs = GetComponentsInChildren<ParticleSystem>(true);
+        ParticleSystem childPs = null;
+        foreach (var ps in allChildPs)
         {
-            // Clone the particle system GameObject so it can play after this object is destroyed
-            var psGo = Instantiate(localPs.gameObject, localPs.transform.position, localPs.transform.rotation);
+            if (ps == null)
+                continue;
+            if (ps.gameObject == this.gameObject)
+                continue; // skip particle systems on the root object to avoid cloning the whole root/player
+            childPs = ps;
+            break;
+        }
+
+        if (childPs != null)
+        {
+            // Instantiate only the child particle system GameObject at the child's world position
+            var worldPos = childPs.transform.position;
+            var worldRot = childPs.transform.rotation;
+            var psGo = Instantiate(childPs.gameObject, worldPos, worldRot);
             var ps = psGo.GetComponent<ParticleSystem>();
             if (ps != null)
                 ps.Play();
@@ -92,7 +105,7 @@ public class Hazard : MonoBehaviour
             float destroyTime = EstimateParticleLifetime(ps);
             Destroy(psGo, destroyTime);
         }
-        // If no particle system found and no prefab assigned, do nothing.
+        // If no child particle system found and no prefab assigned, do nothing.
     }
 
     // Estimate how long to keep the instantiated particle GameObject alive.
