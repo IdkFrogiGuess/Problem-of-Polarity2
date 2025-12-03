@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -156,17 +156,17 @@ TextureImporter:
       name: bugbot lingus v1_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 37
-        width: 35
-        height: 40
+        x: 4
+        y: 38
+        width: 33
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 17f48f6a792d57f60800000000000000
       internalID: 8031557059268333425
@@ -178,17 +178,17 @@ TextureImporter:
       name: bugbot lingus v1_1
       rect:
         serializedVersion: 2
-        x: 6
-        y: 75
-        width: 29
-        height: 36
+        x: 7
+        y: 76
+        width: 27
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: bfd3d2a981556b320800000000000000
       internalID: 2573337801243049467
@@ -200,17 +200,17 @@ TextureImporter:
       name: bugbot lingus v1_2
       rect:
         serializedVersion: 2
-        x: 47
-        y: 75
-        width: 29
-        height: 37
+        x: 48
+        y: 76
+        width: 27
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 382f2dd0ad8200260800000000000000
       internalID: 7061689132716847747
@@ -222,17 +222,17 @@ TextureImporter:
       name: bugbot lingus v1_3
       rect:
         serializedVersion: 2
-        x: 87
-        y: 75
-        width: 31
-        height: 37
+        x: 88
+        y: 76
+        width: 29
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: c286a8674681fdf50800000000000000
       internalID: 6908267173174208556
@@ -244,17 +244,17 @@ TextureImporter:
       name: bugbot lingus v1_4
       rect:
         serializedVersion: 2
-        x: 127
-        y: 75
-        width: 35
-        height: 39
+        x: 128
+        y: 76
+        width: 33
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: d4c27f339e1b902f0800000000000000
       internalID: -1006077426583262131
@@ -266,17 +266,21 @@ TextureImporter:
       name: bugbot lingus v1_5
       rect:
         serializedVersion: 2
-        x: 40
-        y: 37
-        width: 84
-        height: 34
+        x: 41
+        y: 38
+        width: 41
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: -42, y: -17}
+        - {x: 1, y: -17}
+        - {x: 0, y: 17}
+        - {x: -42, y: 17}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 30fc594e2095c7e50800000000000000
       internalID: 6808414605637177091
@@ -288,17 +292,17 @@ TextureImporter:
       name: bugbot lingus v1_6
       rect:
         serializedVersion: 2
-        x: 131
-        y: 37
-        width: 27
-        height: 36
+        x: 132
+        y: 38
+        width: 25
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 9db3263f6aa9238e0800000000000000
       internalID: -1715138466236187687
@@ -310,17 +314,17 @@ TextureImporter:
       name: bugbot lingus v1_7
       rect:
         serializedVersion: 2
-        x: 10
+        x: 11
         y: 0
-        width: 23
-        height: 35
+        width: 21
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 3febb78a3c8db6c40800000000000000
       internalID: 5506733304247467763
@@ -332,17 +336,17 @@ TextureImporter:
       name: bugbot lingus v1_8
       rect:
         serializedVersion: 2
-        x: 48
+        x: 49
         y: 0
-        width: 27
-        height: 35
+        width: 25
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 5506618cf8ffd9420800000000000000
       internalID: 2638545949711294549
@@ -354,20 +358,42 @@ TextureImporter:
       name: bugbot lingus v1_9
       rect:
         serializedVersion: 2
-        x: 86
+        x: 87
         y: 0
-        width: 29
-        height: 35
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f50207f3d3c8f4d0800000000000000
+      internalID: -3100513028294965769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bugbot lingus v1_10
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 38
+        width: 42
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7f50207f3d3c8f4d0800000000000000
-      internalID: -3100513028294965769
+      spriteID: 21a24df7660f2254cb45b9dfff657213
+      internalID: 2038743263
       vertices: []
       indices: 
       edges: []
@@ -376,7 +402,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bba1b646dd880194f8a435982c0a09a2
     internalID: 0
     vertices: []
     indices: 
@@ -388,6 +414,7 @@ TextureImporter:
     nameFileIdTable:
       bugbot lingus v1_0: 8031557059268333425
       bugbot lingus v1_1: 2573337801243049467
+      bugbot lingus v1_10: 2038743263
       bugbot lingus v1_2: 7061689132716847747
       bugbot lingus v1_3: 6908267173174208556
       bugbot lingus v1_4: -1006077426583262131
