@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 0d2bf5399bbda1f4d95faf3a723fd999
+=======
 guid: 3ed1d73b04be18e42871c72217d433d1
+>>>>>>> cd2d1d19f751dc7f6d124faef00381981c5028ca
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -160,8 +164,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< HEAD
+    nameFileIdTable: {}
+=======
     nameFileIdTable:
       Particle explosion_0: 3865820266706678393
+>>>>>>> cd2d1d19f751dc7f6d124faef00381981c5028ca
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
