@@ -256,7 +256,7 @@ MonoBehaviour:
   whatIsWall:
     serializedVersion: 2
     m_Bits: 64
-  jump: {fileID: 0}
+  jump: {fileID: 8300000, guid: 08636b14afe88c541aeadffc9f5eaf39, type: 3}
   jumpTime: 0.5
   InvertMovement: 1
 --- !u!95 &384970964587393252
