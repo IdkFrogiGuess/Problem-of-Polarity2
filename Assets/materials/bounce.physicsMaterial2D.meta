@@ -1,8 +1,15 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/prefabs/Materials.meta
+guid: c9971ddf61773114c804b2304c2c5c11
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+========
 guid: 523b85f5d62b736418c6a56d2f3ac511
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 0
+>>>>>>>> e530e882b751c111a0fa437f87082f4a601043cb:Assets/materials/bounce.physicsMaterial2D.meta
   userData: 
   assetBundleName: 
   assetBundleVariant: 
