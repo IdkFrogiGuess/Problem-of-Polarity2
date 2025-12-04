@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Antimatronics_0: 4732439249675799140
+      Antimatronics_1: 9223047217939923189
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

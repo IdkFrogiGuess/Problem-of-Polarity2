@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Red-eyed Ribbot_0: 4630176203887424266
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
