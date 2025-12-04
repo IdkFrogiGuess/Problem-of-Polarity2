@@ -1,6 +1,10 @@
 fileFormatVersion: 2
 <<<<<<<< HEAD:Assets/Scenes/prefabs/Materials.meta
-guid: 8fd89b49fe9db184287bcaa6aac9206e
+<<<<<<< HEAD
+guid: a3f7f2938f6dcd14289215d91bacd3d0
+=======
+guid: 9d39bbb7450ca3d47b76a3a69c8054e9
+>>>>>>> 231cbd79c1742bfd55c6d7570832ece58f21e4d1
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
