@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gold Findroid_0: -1754440409677698902
+      Gold Findroid_1: -3728394343199807525
+      Gold Findroid_2: 6363080338569412941
+      Gold Findroid_3: 3468407200938449352
+      Gold Findroid_4: 1417943990620233220
+      Gold Findroid_5: -3195237995472416019
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
