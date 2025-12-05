@@ -1061,7 +1061,7 @@ Transform:
   m_GameObject: {fileID: 1309808027}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.539, y: -0.896, z: 0}
+  m_LocalPosition: {x: -2.948, y: -0.896, z: 0}
   m_LocalScale: {x: 1, y: 1.1968, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1131,7 +1131,7 @@ MonoBehaviour:
   isHeavy: 1
   openPosition: {x: 2.71, y: 2.47}
   CurrentSprite: {fileID: 5626547767232804351, guid: 32b46f2b0776e8249b7ff34958611fbd, type: 3}
-  PressedSprite: {fileID: -6793858997436965584, guid: c3d80ac0ab7f2f749aff7e188846abbe, type: 3}
+  PressedSprite: {fileID: 8522610700591425711, guid: 1fbd3cfff95117c44a65ecb8bb9ff942, type: 3}
 --- !u!1 &1389284988
 GameObject:
   m_ObjectHideFlags: 0

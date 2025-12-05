@@ -185,7 +185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6961919000251445114, guid: 2211584bee0b2424da41f8cde83486dd, type: 3}
       propertyPath: NextLevel
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6961919000251445114, guid: 2211584bee0b2424da41f8cde83486dd, type: 3}
       propertyPath: ExitIsOpen
