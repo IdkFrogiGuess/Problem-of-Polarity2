@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 2ce33feec5a893f4dbcc149f433aacb0
+guid: 828a19d0c99227544a2b19e4c3ca522b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8522610700591425711
-    second: Blue button (pressed)_0
+      213: 8859569213446344910
+    second: red door_0
+  - first:
+      213: -2458603618436002388
+    second: red door_1
+  - first:
+      213: -8765385947433629653
+    second: red door_2
+  - first:
+      213: 3318018574486634177
+    second: red door_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Blue button (pressed)_0
+      name: red door_0
       rect:
         serializedVersion: 2
         x: 3
         y: 0
-        width: 32
-        height: 5
+        width: 26
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +150,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fa8e1b70745664670800000000000000
-      internalID: 8522610700591425711
+      spriteID: ec0d476724383fa70800000000000000
+      internalID: 8859569213446344910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red door_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cadc1a7090941edd0800000000000000
+      internalID: -2458603618436002388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red door_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28840cfbe71b5680800000000000000
+      internalID: -8765385947433629653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red door_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 26
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce7c6a5058fb0e20800000000000000
+      internalID: 3318018574486634177
       vertices: []
       indices: 
       edges: []
@@ -160,8 +235,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Blue button (pressed)_0: 8522610700591425711
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
