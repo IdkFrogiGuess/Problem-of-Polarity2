@@ -9,6 +9,9 @@ public class DoorButton : MonoBehaviour
     public bool isHeavy = false;
     public Vector2 openPosition;
     private Vector2 closedPosition;
+    public Sprite CurrentSprite;
+    public Sprite PressedSprite;
+
 
     private void OnDrawGizmos()
     {
@@ -27,15 +30,20 @@ public class DoorButton : MonoBehaviour
         {
             door.transform.position = Vector2.Lerp(door.transform.position, openPosition, Time.deltaTime * 2);
             hasBeenOpened = true;
+            GetComponent<SpriteRenderer>().sprite = PressedSprite;
+
+
         }
         
         if( hasBeenOpened && isHeavy && buttonPressed == false)
         {
             door.transform.position = Vector2.Lerp( door.transform.position, closedPosition, Time.deltaTime*4);
+            GetComponent<SpriteRenderer>().sprite = CurrentSprite;
         }
         if (hasBeenOpened && isHeavy && buttonPressed == true)
         {
             door.transform.position = Vector2.Lerp(door.transform.position, openPosition, Time.deltaTime * 2);
+            GetComponent<SpriteRenderer>().sprite = PressedSprite;
         }
     }
 

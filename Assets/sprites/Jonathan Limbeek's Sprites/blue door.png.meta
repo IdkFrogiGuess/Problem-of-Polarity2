@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 37240b72d770cc64abd34ffab9af0092
+guid: 7c2e38c20c429b64f892cdfc2b6d09be
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      blue door_0: 5462446522617552535
+      blue door_1: 6053125385049167874
+      blue door_2: -1268048522899316281
+      blue door_3: 5356133884378109000
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

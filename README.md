@@ -13,6 +13,6 @@ The following is a template you can use when creating a 2D project in class. If 
 7. Stage your changes to the repository
 8. Commit your changes to the repository
 9. If working with others who have recently pushed changes, pull their changes to your computer
-10. Push your changes to the repository
+67. Push your changes to the repository
 
 Repeat steps 6-10 as you continue to work on the project.
