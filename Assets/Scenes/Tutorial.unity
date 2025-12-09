@@ -1988,7 +1988,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4465451305930852902, guid: 47136db1f1291734d9682b768287183a, type: 3}
       propertyPath: jumpForce
-      value: 30
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 4616102134555274524, guid: 47136db1f1291734d9682b768287183a, type: 3}
       propertyPath: m_Name
@@ -1996,7 +1996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6866518536454669070, guid: 47136db1f1291734d9682b768287183a, type: 3}
       propertyPath: m_GravityScale
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7450785443538277325, guid: 47136db1f1291734d9682b768287183a, type: 3}
       propertyPath: m_EdgeRadius
