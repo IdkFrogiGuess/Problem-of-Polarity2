@@ -588,7 +588,7 @@ MonoBehaviour:
   isHeavy: 1
   openPosition: {x: 7.09, y: 10.8}
   CurrentSprite: {fileID: 5626547767232804351, guid: 32b46f2b0776e8249b7ff34958611fbd, type: 3}
-  PressedSprite: {fileID: -6793858997436965584, guid: 2c239eab97d206644b82df628c7f6728, type: 3}
+  PressedSprite: {fileID: -6793858997436965584, guid: 0350b3e885385894290c7beecfcc9259, type: 3}
 --- !u!212 &969364641
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3721,7 +3721,7 @@ GameObject:
   - component: {fileID: 2107572513}
   - component: {fileID: 2107572512}
   - component: {fileID: 2107572514}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: walll
   m_TagString: Untagged
   m_Icon: {fileID: 0}
