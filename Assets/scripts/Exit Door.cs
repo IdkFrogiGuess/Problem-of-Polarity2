@@ -1,6 +1,3 @@
-
-using Unity.Mathematics;
-using UnityEditor.Rendering;
 using UnityEngine;
 
 public class ExitDoor : MonoBehaviour
