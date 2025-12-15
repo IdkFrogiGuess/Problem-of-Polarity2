@@ -4019,7 +4019,7 @@ TilemapCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4b6e0b90541692b44b6cffebd041d6b6, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -25245,11 +25245,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4465451305930852902, guid: 47136db1f1291734d9682b768287183a, type: 3}
       propertyPath: jumpForce
-      value: 30
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 4616102134555274524, guid: 47136db1f1291734d9682b768287183a, type: 3}
       propertyPath: m_Name
       value: Gus
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866518536454669070, guid: 47136db1f1291734d9682b768287183a, type: 3}
+      propertyPath: m_GravityScale
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7450785443538277325, guid: 47136db1f1291734d9682b768287183a, type: 3}
       propertyPath: m_EdgeRadius
