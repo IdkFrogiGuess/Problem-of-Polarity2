@@ -5075,8 +5075,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbd8b24487a983c46a679f62a8eaaa81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextLevel: 0
+  animator: {fileID: 0}
   CheckFirst: 0
   Player: {fileID: 0}
+  Player2: {fileID: 0}
+  finalForm: {fileID: 0}
+  change: 0
 --- !u!61 &8317460836375971498
 BoxCollider2D:
   m_ObjectHideFlags: 0
