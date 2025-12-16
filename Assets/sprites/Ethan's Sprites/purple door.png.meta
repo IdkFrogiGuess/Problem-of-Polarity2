@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3b8c7526e4060694bb5940fff54ca27c
+guid: ebad90f77ee9d1648a17632dde64cceb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4817837958033083194
-    second: purple button (not pressed)_0
+      213: 2214552828841205324
+    second: purple door_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: purple button (not pressed)_0
+      name: purple door_0
       rect:
         serializedVersion: 2
         x: 3
         y: 0
-        width: 32
-        height: 17
+        width: 26
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c47b0637e9932db0800000000000000
-      internalID: -4817837958033083194
+      spriteID: c4e9a6b801cabbe10800000000000000
+      internalID: 2214552828841205324
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      purple button (not pressed)_0: -4817837958033083194
+      purple door_0: 2214552828841205324
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
