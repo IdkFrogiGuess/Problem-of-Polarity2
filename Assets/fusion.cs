@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class fusion : MonoBehaviour
 {
+    public int NextLevel;
     public Animator animator;
     public bool CheckFirst = false;
     public GameObject Player;
@@ -30,7 +31,7 @@ public class fusion : MonoBehaviour
     }
     public void Changed()
     {
-        animator.SetBool("Flex", true);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(NextLevel);
     }
     void OnTriggerStay2D(Collider2D other)
     {
