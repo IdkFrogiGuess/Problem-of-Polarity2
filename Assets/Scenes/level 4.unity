@@ -812,11 +812,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3789754266614436867, guid: 4daf43ea32052314f9e9e0859769a96f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.26
+      value: 18.28
       objectReference: {fileID: 0}
     - target: {fileID: 3789754266614436867, guid: 4daf43ea32052314f9e9e0859769a96f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.58
+      value: -9.48
       objectReference: {fileID: 0}
     - target: {fileID: 3789754266614436867, guid: 4daf43ea32052314f9e9e0859769a96f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1173,11 +1173,11 @@ PrefabInstance:
       objectReference: {fileID: 86281097}
     - target: {fileID: 7804883218022878826, guid: 47136db1f1291734d9682b768287183a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.67
+      value: -17.48
       objectReference: {fileID: 0}
     - target: {fileID: 7804883218022878826, guid: 47136db1f1291734d9682b768287183a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.04
+      value: 7.58
       objectReference: {fileID: 0}
     - target: {fileID: 7804883218022878826, guid: 47136db1f1291734d9682b768287183a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1238,7 +1238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextLevel: 0
   animator: {fileID: 0}
-  CheckFirst: 0
+  Check: 0
   Player: {fileID: 0}
   Player2: {fileID: 0}
   finalForm: {fileID: 0}

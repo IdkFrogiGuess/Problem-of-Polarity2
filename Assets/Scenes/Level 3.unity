@@ -8970,7 +8970,7 @@ TilemapCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4b6e0b90541692b44b6cffebd041d6b6, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -16598,6 +16598,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbd8b24487a983c46a679f62a8eaaa81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextLevel: 0
+  animator: {fileID: 0}
+  Check: 0
+  Player: {fileID: 0}
+  Player2: {fileID: 0}
+  finalForm: {fileID: 0}
+  change: 0
 --- !u!1001 &1225747370
 PrefabInstance:
   m_ObjectHideFlags: 0
