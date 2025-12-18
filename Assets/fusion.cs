@@ -4,7 +4,7 @@ public class fusion : MonoBehaviour
 {
     public int NextLevel;
     public Animator animator;
-    public bool CheckFirst = false;
+    public bool Check = false;
     public GameObject Player;
     public GameObject Player2;
     public GameObject finalForm;
@@ -16,7 +16,7 @@ public class fusion : MonoBehaviour
 
     private void Update()
     {
-        if (CheckFirst)
+        if (Check)
         {
             change = true;
             if (change)
@@ -37,7 +37,7 @@ public class fusion : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            CheckFirst = true;
+            Check = true;
 
 
         }
@@ -45,7 +45,7 @@ public class fusion : MonoBehaviour
     }
     void OnTriggerExit2D(Collider2D other)
     {
-        CheckFirst = false;
+        Check = false;
     }
 }
 
