@@ -858,6 +858,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Linus Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7830977046903344427, guid: 4daf43ea32052314f9e9e0859769a96f, type: 3}
+      propertyPath: death
+      value: 
+      objectReference: {fileID: 8300000, guid: 6681f7027d894124881c088ffdc1bf85, type: 3}
+    - target: {fileID: 7830977046903344427, guid: 4daf43ea32052314f9e9e0859769a96f, type: 3}
+      propertyPath: deathParticlesPrefab
+      value: 
+      objectReference: {fileID: 871871042}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3385,6 +3393,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!198 &871871042 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 1290886081778796737, guid: 47136db1f1291734d9682b768287183a, type: 3}
+  m_PrefabInstance: {fileID: 644243386}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &885847840
 PrefabInstance:
   m_ObjectHideFlags: 0

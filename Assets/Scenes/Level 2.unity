@@ -329,6 +329,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2211584bee0b2424da41f8cde83486dd, type: 3}
+--- !u!198 &259947619 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 1290886081778796737, guid: 47136db1f1291734d9682b768287183a, type: 3}
+  m_PrefabInstance: {fileID: 1615821365}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &428408633
 GameObject:
   m_ObjectHideFlags: 0
@@ -5470,8 +5475,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDead: 0
   reloadDelay: 3
-  death: {fileID: 0}
-  deathParticlesPrefab: {fileID: 0}
+  death: {fileID: 8300000, guid: 6681f7027d894124881c088ffdc1bf85, type: 3}
+  deathParticlesPrefab: {fileID: 259947619}
 --- !u!1 &969364638
 GameObject:
   m_ObjectHideFlags: 0
@@ -5816,7 +5821,7 @@ GameObject:
   - component: {fileID: 1354735940}
   - component: {fileID: 1354735939}
   - component: {fileID: 1354735938}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: box
   m_TagString: Heavy
   m_Icon: {fileID: 0}
